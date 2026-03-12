@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Redirecting to Listzly...</title></head>
+<body>
+<p>Redirecting to Listzly...</p>
+<p>If the app doesn't open, please open this link on your phone.</p>
+<script>
+  var params = window.location.hash || window.location.search;
+  window.location.href = 'com.caplock.listzly://login-callback' + params;
+</script>
+</body>
+</html>
